@@ -40,7 +40,8 @@ body {
   background: black;
   position: absolute;
   top: 50%;
-  /* transform: rotate(90deg); */
   transform-origin: 100%;
-  transition: 0.1s ease-in-out;
+  transform: rotate(90deg);
+  transition: 0.3s all ease;
+  transition-timing-function: cubic-bezier(0.62, 0.13, 0, 2.13);
 }
