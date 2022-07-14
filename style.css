@@ -1,5 +1,5 @@
 html {
-  background: #018ded url(https://unsplash.it/1500/1000?image=881&blur=5);
+  background: linear-gradient(to bottom right, #fceabb, #f8b500);
   background-size: cover;
   font-family: "helvetica neue";
   text-align: center;
@@ -18,13 +18,15 @@ body {
 .clock {
   width: 30rem;
   height: 30rem;
-  border: 20px solid white;
+  border: 20px solid #000;
   border-radius: 50%;
   margin: 50px auto;
   position: relative;
   padding: 2rem;
   box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #efefef,
     inset 0 0 10px black, 0 0 10px rgba(0, 0, 0, 0.2);
+  background: url(./images/watch-face.png);
+  background-size: contain;
 }
 
 .clock-face {
@@ -37,7 +39,7 @@ body {
 .hand {
   width: 50%;
   height: 6px;
-  background: black;
+  background: #000;
   position: absolute;
   top: 50%;
   transform-origin: 100%;
